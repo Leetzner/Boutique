@@ -1,4 +1,4 @@
-html{
+html {
     height: 100%;
 }
 
@@ -46,7 +46,7 @@ body {
 
 .btn-outline-black:hover,
 .btn-outline-black:active,
-.btn-outline-black:focus{
+.btn-outline-black:focus {
     background: black;
     color: white !important;
 }
@@ -69,18 +69,18 @@ body {
     border: 1px solid black !important;
 }
 
-.bg-black{
+.bg-black {
     background: #000 !important;
 }
 
-.overlay{
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    position: fixed;
-    background: white;
-    z-index: -1;
+.overlay {
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+	background: white;
+	z-index: -1;
 }
 
 a.category-badge > span.badge:hover {
@@ -96,11 +96,13 @@ a.category-badge > span.badge:hover {
     right: 10px;
 }
 
-.btt-link, 
+.btt-link,
 .update-link,
 .remove-item {
     cursor: pointer;
 }
+
+/* ------------------------------- bootstrap toasts */
 
 .message-container {
     position: fixed;
