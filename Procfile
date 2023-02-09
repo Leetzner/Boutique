@@ -1,1 +1,1 @@
-web: gunicorn boutique_ado.py:application
+web: gunicorn boutique_ado:application
